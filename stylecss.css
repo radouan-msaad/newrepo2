@@ -1,0 +1,114 @@
+body{
+	height: 600px;
+	width: 600px;
+	margin-left:30%;
+  position: relative;
+}
+button{
+  height:50px;
+  font-size: 26px;
+  width:70px;
+  background:aqua;
+  outline: none;
+  border:none;
+  top:440px;
+  position:absolute;
+}
+button:active{
+ background:red;
+}
+#save{
+  margin-left: 50px;
+}
+#sujet{
+  margin-left: -100px;
+}
+#b5{
+ left:60;
+}
+#b3{
+ left:130px;
+ top:500px;
+}
+#b2{
+ left:130px;
+ top:384px;
+}
+#b4{
+ left:200px;
+}
+#b6{
+ left:300px;
+}
+h1,h3{
+	text-align: center;
+	height: 30px;
+	width: 400px;
+
+}
+#save_me{
+	margin-left: 0px;
+	height: 300px;
+	width: 500px;
+  position: relative;
+
+}
+.block{
+	background:steelblue;
+	position: absolute;
+} 
+#start,#end{
+	text-align: center;
+	font-size:40px;
+	position: absolute;
+}
+#start{
+  height: 40px;
+  width: 40px;
+  background: lime;
+  top:200px;
+  left: 0;
+  z-index: 2;
+}
+#block1{
+  height: 200px;
+  width: 140px;
+  top: 0;
+  left: 0;
+}
+#block2{
+  height: 60px;
+  width:50%;
+  top: 0;
+  left: 140px;
+}
+#block3{
+  height: 200px;
+  width: 140px;
+  top: 0;
+  left:360px;
+}
+#block4{
+  height: 170px;
+  width: 140px;
+  top:100px;
+  left:180px;
+}
+#block5{
+  height: 50px;
+  width: 500px;
+  top: 240px;
+  left:0;
+}
+
+#end{
+  height: 40px;
+  width: 40px;
+  background: pink;
+  top:200px;
+  left: 460px;
+  z-index: 1;
+}
+p,h2{
+  text-align: center;
+}
